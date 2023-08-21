@@ -23,7 +23,7 @@ words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!', '.', '#']
-data_file = open(r'C:\Users\Admin\Documents\ASM_EL\intents.json').read()
+data_file = open(r'C:\Users\divam\Documents\Coding Club\Codes\laconic-verbosity-1\intents.json').read()
 intents = json.loads(data_file)
 
 

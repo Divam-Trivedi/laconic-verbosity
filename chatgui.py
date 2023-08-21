@@ -8,14 +8,14 @@ import pickle
 import numpy as np
 
 from keras.models import load_model
-model = load_model(r'C:\Users\Admin\Documents\ASM_EL\chatbot_model.h5')
+model = load_model(r'C:\Users\divam\Documents\Coding Club\Codes\laconic-verbosity-1\chatbot_model.h5')
 import json
 import random
-intents = json.loads(open(r'C:\Users\Admin\Documents\ASM_EL\intents.json').read())
+intents = json.loads(open(r'C:\Users\divam\Documents\Coding Club\Codes\laconic-verbosity-1\intents.json').read())
 
-words = pickle.load(open(r'C:\Users\Admin\Documents\ASM_EL\words.pkl','rb'))
+words = pickle.load(open(r'C:\Users\divam\Documents\Coding Club\Codes\laconic-verbosity-1\words.pkl','rb'))
 
-classes = pickle.load(open(r'C:\Users\Admin\Documents\ASM_EL\classes.pkl','rb'))
+classes = pickle.load(open(r'C:\Users\divam\Documents\Coding Club\Codes\laconic-verbosity-1\classes.pkl','rb'))
 
 
 def clean_up_sentence(sentence):
