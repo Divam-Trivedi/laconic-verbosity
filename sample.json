@@ -1,0 +1,12 @@
+{
+    "tag": "teacher",
+    "patterns": [
+        "prof",
+        "professor"
+    ],
+    "responses": [
+        "good teachers",
+        "nice profs"
+    ],
+    "context": []
+}Hello
